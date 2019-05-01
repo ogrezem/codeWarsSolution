@@ -5,10 +5,8 @@ import java.util.HashMap;
 public class AreSame {
 
     public static boolean comp(int[] a, int[] b) {
-        if (a.length != b.length) {
-            System.err.println("Не совпадают по изначальной длине!");
+        if (a.length != b.length)
             return false;
-        }
         HashMap<Integer, Integer> aElementsAmounts = new HashMap<>();
         // makes HashMap where key is a number and value is amount of entries
         for (int aEl1 : a) {
@@ -24,26 +22,14 @@ public class AreSame {
             }
             bElementsAmounts.replace(bEl1, bElementsAmounts.get(bEl1) + 1);
         }
-        if (aElementsAmounts.size() != bElementsAmounts.size()) {
-            System.err.println("Не совпадают по количеству групп по количествам элементов");//
+        if (aElementsAmounts.size() != bElementsAmounts.size())
             return false;
-        }
-//        System.out.println("printAmounts(aElementsAmounts);");//
-//        printAmounts(aElementsAmounts);//
-//        System.out.println("==================================");//
-//        printAmounts(squareAmounts(aElementsAmounts));//
-//        System.out.println("printAmounts(bElementsAmounts);");//
-//        printAmounts(bElementsAmounts);//
         for (HashMap.Entry<Integer, Integer> aElementsAmountsEntry : aElementsAmounts.entrySet()) {
             int aKey = aElementsAmountsEntry.getKey();
             int aValue = aElementsAmountsEntry.getValue();
             int squaredAKey = (int) Math.pow(aKey, 2);
-            if (!(bElementsAmounts.containsKey(squaredAKey) && bElementsAmounts.get(squaredAKey) == aValue)) {
-//                System.err.println("Какому-то числу не нашлось пары ;c");//
-//                System.err.println("bElementsAmounts.containsKey(aKey ^ 2): " + bElementsAmounts.containsKey(squaredAKey));//
-//                System.err.println("bElementsAmounts.get(aKey ^ 2): " + bElementsAmounts.get(squaredAKey));//
+            if (!(bElementsAmounts.containsKey(squaredAKey) && bElementsAmounts.get(squaredAKey) == aValue))
                 return false;
-            }
         }
         return true;
     }
