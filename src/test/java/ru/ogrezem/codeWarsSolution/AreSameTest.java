@@ -1,6 +1,7 @@
 package ru.ogrezem.codeWarsSolution;
 
 import org.junit.jupiter.api.Test;
+import ru.ogrezem.codeWarsSolution.other.AreSame;
 
 import static org.junit.jupiter.api.Assertions.*;
 

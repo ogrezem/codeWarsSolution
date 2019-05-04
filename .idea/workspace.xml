@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/ru/ogrezem/codeWarsSolution/AreSameTest.java" line="15" mnemonic="2" />
+  </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
     <option name="SERVER_URL" value="http://buildserver" />
@@ -23,8 +26,47 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b17c36a-c60a-41c0-849b-3d937dee968d" name="Default Changelist" comment="" />
+    <list default="true" id="6b17c36a-c60a-41c0-849b-3d937dee968d" name="Default Changelist" comment="adding vk">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/LongPollManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiAccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiClientConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/BirthDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/OddSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/Sex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/TriangleTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ogrezem/codeWarsSolution/OddSorterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeWarsSolution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codeWarsSolution.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codeWarsSolution/ru/ogrezem/codeWarsSolution/AreSame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codeWarsSolution/ru/ogrezem/codeWarsSolution/HashMapCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codeWarsSolution/ru/ogrezem/codeWarsSolution/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VKConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VKConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/AreSame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/AreSame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/HashMapCollector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ru/ogrezem/codeWarsSolution/AreSameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ogrezem/codeWarsSolution/AreSameTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,56 +74,166 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codeWarsSolution" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codeWarsSolution" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codeWarsSolution" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codeWarsSolution" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="codeWarsSolution" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="6" selection-end-column="76" />
+            <state relative-caret-position="126">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/HashMapCollector.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="36">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/AreSame.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/TriangleTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/OddSorter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-32">
+              <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/ru/ogrezem/codeWarsSolution/AreSameTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="409">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/DayOfWeek.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/Sex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/AreSame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/BirthDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,10 +243,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>https://vk.com/urcutelittlesister?z=photo62580436_456248337%2Fphotos62580436</find>
+      <find>команда1</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,67 +268,135 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/AreSame.java" />
         <option value="$PROJECT_DIR$/src/ru/ogrezem/codeWarsSolution/AreSame.java" />
         <option value="$PROJECT_DIR$/src/test/ru/ogrezem/codeWarsSolution/AreSameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/AreSame.java" />
+        <option value="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/TriangleTester.java" />
+        <option value="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/SortTheOdd.java" />
+        <option value="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/ogrTest/OgrTest.java" />
+        <option value="$PROJECT_DIR$/src/test/ru/ogrezem/codeWarsSolution/OddSorterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/OddSorter.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/OddSorter.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/User.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/ClientAccessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/ClientConnector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VKAPIAccessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VKBotManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiEventHandlerResponseMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiEventHandlerResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VKConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkUriParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiClientConnector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiAccessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/LongPollManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/DayOfWeek.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/BirthDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Sex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/HashMapCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/AreSame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/BirthDay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotManager.java" />
       </list>
     </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="zSydsfya" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="700" />
     <option name="width" value="700" />
     <option name="height" value="1010" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeWarsSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="codeWarsSolution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeWarsSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="codeWarsSolution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeWarsSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="codeWarsSolution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeWarsSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="codeWarsSolution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeWarsSolution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="codeWarsSolution" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeWarsSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="codeWarsSolution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codeWarsSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="vkApi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="codeWarsSolution" type="462c0819:PsiDirectoryNode" />
+              <item name="codeWarsSolution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeWarsSolution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeWarsSolution" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="codeWarsSolution" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,11 +404,18 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="add_unversioned_files" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -187,8 +425,9 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\common\JavaProjects\codeWarsSolution\src\main" />
+      <recent name="C:\common\JavaProjects\codeWarsSolution\src\test\java" />
       <recent name="C:\common\JavaProjects\codeWarsSolution\src\main\java" />
+      <recent name="C:\common\JavaProjects\codeWarsSolution\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,22 +442,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AreSameTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.codeWarsSolution.Main" />
-      <module name="codeWarsSolution" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+  <component name="RunManager" selected="Gradle.codeWarsSolution [run]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ogrezem.codeWarsSolution.Main" />
+      <module name="codeWarsSolution.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ogrezem.codeWarsSolution.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="codeWarsSolution [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="AreSameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codeWarsSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ogrezem.codeWarsSolution.*" />
+          <option name="PATTERN" value="ru.ogrezem.codeWarsSolution.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,16 +490,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OddSorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeWarsSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ogrezem.codeWarsSolution.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.ogrezem.codeWarsSolution" />
+      <option name="MAIN_CLASS_NAME" value="ru.ogrezem.codeWarsSolution.OddSorterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddSorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeWarsSolution.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ogrezem.codeWarsSolution.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.ogrezem.codeWarsSolution" />
+      <option name="MAIN_CLASS_NAME" value="ru.ogrezem.codeWarsSolution.OddSorterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Gradle.codeWarsSolution [run]" />
       <item itemvalue="JUnit.AreSameTest" />
+      <item itemvalue="JUnit.OddSorterTest" />
+      <item itemvalue="JUnit.OddSorterTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.codeWarsSolution [run]" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.OddSorterTest (1)" />
+        <item itemvalue="JUnit.OddSorterTest" />
         <item itemvalue="JUnit.AreSameTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -251,50 +552,323 @@
       <option name="presentableId" value="Default" />
       <updated>1556651038588</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding vk connection">
+      <created>1556888048271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556888048271</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AreSameTest - 2019.05.01 at 14h 27m 57s.xml">
+      <configuration name="AreSameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddSorterTest - 2019.05.02 at 12h 02m 02s.xml">
+      <configuration name="OddSorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddSorterTest - 2019.05.02 at 12h 03m 52s.xml">
+      <configuration name="OddSorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddSorterTest - 2019.05.02 at 12h 04m 12s.xml">
+      <configuration name="OddSorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddSorterTest - 2019.05.02 at 12h 20m 44s.xml">
+      <configuration name="OddSorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddSorterTest - 2019.05.02 at 12h 22m 19s.xml">
+      <configuration name="OddSorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddSorterTest - 2019.05.02 at 12h 56m 13s.xml">
+      <configuration name="OddSorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddSorterTest - 2019.05.02 at 12h 56m 23s.xml">
+      <configuration name="OddSorterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddSorterTest_(1) - 2019.05.02 at 19h 51m 28s.xml">
+      <configuration name="OddSorterTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddSorterTest_(1) - 2019.05.02 at 20h 10m 35s.xml">
+      <configuration name="OddSorterTest (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1416" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26474926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49926254" weight="0.32997763" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007375" side_tool="true" weight="0.32997763" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TeamCity" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49926254" visible="true" weight="0.3277405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Cargo" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" x="0" y="0" width="608" height="826" id="Documentation" weight="0.32964602" />
-      <window_info anchor="right" id="Json Parser" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49926254" weight="0.32885906" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007375" side_tool="true" weight="0.3277405" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
+      <window_info anchor="bottom" id="TeamCity" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32922733" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.32997763" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32964602" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Cargo" order="5" weight="0.32964602" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" x="0" y="0" width="608" height="826" id="Documentation" order="7" weight="0.32964602" />
+      <window_info anchor="right" id="Json Parser" order="8" weight="0.32964602" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Key Promoter X" order="11" />
+      <window_info anchor="right" id="Gradle" order="12" weight="0.32964602" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding vk connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding vk connection" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/settings.gradle</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/HashMapCollector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/ogrTest/OgrTest.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeWarsSolution.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="18">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ogrezem/codeWarsSolution/OddSorterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestVKAPI1/src/SerialisationClasses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.11/95167d269607b358ba3ed7030ccd336dad8591a0/httpcore-4.4.11-sources.jar!/org/apache/http/protocol/HttpRequestExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4176">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.11/95167d269607b358ba3ed7030ccd336dad8591a0/httpcore-4.4.11-sources.jar!/org/apache/http/impl/io/AbstractMessageParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3870">
+          <caret line="258" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.8/585883960a4ff782ba1982a08649307c6cb2227b/httpclient-4.5.8-sources.jar!/org/apache/http/impl/conn/DefaultHttpResponseParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.11/95167d269607b358ba3ed7030ccd336dad8591a0/httpcore-4.4.11-sources.jar!/org/apache/http/impl/io/SessionInputBufferImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.base/sun/security/ssl/SSLSocketImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="830" selection-start-line="830" selection-end-line="830" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.base/sun/security/ssl/TransportContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.base/sun/security/ssl/Alert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/ogrezem/codeWarsSolution/AreSameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vk.api/sdk/1.0.2/231a84dc268ad89dd6bbf807ed4815f5e4977745/sdk-1.0.2-sources.jar!/com/vk/api/sdk/callback/longpoll/LongPollQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vk.api/sdk/1.0.2/231a84dc268ad89dd6bbf807ed4815f5e4977745/sdk-1.0.2-sources.jar!/com/vk/api/sdk/client/ApiRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.2/a11bdc0e8f95da31527b4f34f1a35c23e197498d/log4j-api-2.11.2-sources.jar!/org/apache/logging/log4j/LogManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vk.api/sdk/1.0.2/231a84dc268ad89dd6bbf807ed4815f5e4977745/sdk-1.0.2-sources.jar!/com/vk/api/sdk/objects/groups/LongPollServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiEventHandlerResponse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiEventHandlerResponseMessage.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="140" lean-forward="true" selection-start-line="19" selection-start-column="140" selection-end-line="19" selection-end-column="140" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiClientConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/LongPollManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VKConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/HashMapCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -312,24 +886,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/AreSame.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/AreSame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/BirthDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="6" selection-end-column="76" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ru/ogrezem/codeWarsSolution/AreSameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/DayOfWeek.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="36">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/Sex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/OddSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/TriangleTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -388,7 +1023,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

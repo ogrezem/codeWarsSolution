@@ -1,6 +1,5 @@
 package ru.ogrezem.codeWarsSolution.domain.vkApi;
 
-import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.vk.api.sdk.actions.LongPoll;
 import com.vk.api.sdk.callback.longpoll.responses.GetLongPollEventsResponse;
@@ -17,11 +16,12 @@ public class VKConnection {
 
     private static final int DIANA_ID = 62580436;
     private static final int GROUP_ID = 169388302;
-    private static final String GROUP_ACCESS_KEY = "82de6328ef42022f6293059dd73eee32669b4dabbcb41c9823b89d529afe2e4db80ec2e16e0019d7f2aa7";
+    private static final String GROUP_ACCESS_KEY
+            = "82de6328ef42022f6293059dd73eee32669b4dabbcb41c9823b89d529afe2e4db80ec2e16e0019d7f2aa7";
     private GroupActor groupActor = new GroupActor(GROUP_ID, GROUP_ACCESS_KEY);
 
     private VkApiClient client;
-    private Gson gson = new Gson();
+//    private Gson gson = new Gson();
     private LongPoll longPoll;
     private String longPollKey;
     private String longPollServerURL;
@@ -44,10 +44,10 @@ public class VKConnection {
         boolean writingResume = false;//
         while (true) {
             System.out.println("Слушаем");
-            GetLongPollEventsResponse response = null;
+            GetLongPollEventsResponse response;
             try {
                 response = longPoll.getEvents(longPollServerURL, longPollKey, ts)
-                        .waitTime(30000)
+                        .waitTime(3600000 * 5) // 3600000 ms = 1 h
                         .execute();
             } catch (ApiException | ClientException e) {
                 e.printStackTrace();
@@ -72,14 +72,14 @@ public class VKConnection {
                     }
                 } else if (update.has("type")) {
                     String updateType = update.get("type").getAsString();
-                    System.out.println("Update type: " + updateType);
+                    System.out.println("Update type: " + updateType);///
                     switch (updateType) {
                         case "message_new":
                             JsonObject messageJsonObject = update.get("object").getAsJsonObject();
                             Integer peerId = messageJsonObject.get("peer_id").getAsInt();
                             Integer fromId = messageJsonObject.get("from_id").getAsInt();
                             String messageText = messageJsonObject.get("text").getAsString();
-                            System.out.println("Message text: " + messageText);
+                            System.out.println("Message text: " + messageText);///
                             switch (messageText) {
                                 case "привет, бот":
                                     int sendingResult = sendMessage(peerId, "Привет, сладость :3");

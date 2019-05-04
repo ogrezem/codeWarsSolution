@@ -1,10 +1,13 @@
-package ru.ogrezem.codeWarsSolution;
+package ru.ogrezem.codeWarsSolution.other;
 
 import java.util.HashMap;
 
 public class AreSame {
 
     public static boolean comp(int[] a, int[] b) {
+        if (a == null || b == null) {
+            return false;
+        }
         if (a.length != b.length)
             return false;
         HashMap<Integer, Integer> aElementsAmounts = new HashMap<>();
