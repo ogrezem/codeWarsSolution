@@ -8,8 +8,6 @@ import com.vk.api.sdk.exceptions.LongPollServerKeyExpiredException;
 import com.vk.api.sdk.objects.groups.LongPollServer;
 import com.vk.api.sdk.queries.groups.GroupsGetLongPollServerQuery;
 
-import java.net.UnknownHostException;
-
 class LongPollManager implements Runnable {
 
     private LongPoll longPoll;
