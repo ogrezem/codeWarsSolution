@@ -3,12 +3,11 @@ package ru.ogrezem.codeWarsSolution.domain.vkApi;
 import com.vk.api.sdk.actions.LongPoll;
 import com.vk.api.sdk.client.VkApiClient;
 import com.vk.api.sdk.client.actors.GroupActor;
-import com.vk.api.sdk.client.actors.UserActor;
-import com.vk.api.sdk.exceptions.ApiException;
-import com.vk.api.sdk.exceptions.ClientException;
 import com.vk.api.sdk.httpclient.HttpTransportClient;
 import com.vk.api.sdk.queries.groups.GroupsGetLongPollServerQuery;
+import org.springframework.stereotype.Service;
 
+@Service
 class VkApiClientConnector {
 
     private VkApiClient client;
@@ -27,7 +26,7 @@ class VkApiClientConnector {
         return client.longPoll();
     }
 
-    GroupsGetLongPollServerQuery longPollServerQuery() throws ApiException, ClientException {
+    GroupsGetLongPollServerQuery longPollServerQuery() {
         return client.groups().getLongPollServer(groupActor, GROUP_ID);
     }
 

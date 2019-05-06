@@ -1,11 +1,20 @@
 package ru.ogrezem.codeWarsSolution.domain.vkApi;
 
+import com.vk.api.sdk.client.Lang;
 import com.vk.api.sdk.client.VkApiClient;
 import com.vk.api.sdk.client.actors.GroupActor;
 import com.vk.api.sdk.client.actors.UserActor;
 import com.vk.api.sdk.exceptions.ApiException;
 import com.vk.api.sdk.exceptions.ClientException;
+import com.vk.api.sdk.objects.base.Sex;
+import com.vk.api.sdk.objects.users.Fields;
+import com.vk.api.sdk.objects.users.UserXtrCounters;
+import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
+import java.util.Map;
+
+@Service
 class VkApiAccessor {
 
     private VkApiClientConnector clientConnector;
@@ -57,7 +66,22 @@ class VkApiAccessor {
         return 0;
     }
 
-//    int testFunc() {
-//        client.likes().isLiked()
-//    }
+    Map<String, String> getUserNameWithSexById(int id) {
+        var userInfoMap = new HashMap<String, String>();
+        try {
+            UserXtrCounters userGetResponse = client.users().get(groupActor)
+                    .userIds(Integer.toString(id))
+                    .lang(Lang.RU)
+                    .fields(
+                            Fields.SEX
+                    ).execute().get(0);
+            userInfoMap.put("firstName", userGetResponse.getFirstName());
+            String stringSex = userGetResponse.getSex() == Sex.MALE ? "male" : "female";
+            userInfoMap.put("sex", stringSex);
+        } catch (ApiException | ClientException e) {
+            System.err.println("ERROR IN getUserNameWithSexById METHOD");
+            e.printStackTrace();
+        }
+        return userInfoMap;
+    }
 }

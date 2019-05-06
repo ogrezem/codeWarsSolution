@@ -7,21 +7,30 @@ import com.vk.api.sdk.exceptions.ClientException;
 import com.vk.api.sdk.exceptions.LongPollServerKeyExpiredException;
 import com.vk.api.sdk.objects.groups.LongPollServer;
 import com.vk.api.sdk.queries.groups.GroupsGetLongPollServerQuery;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
+
+@Service
 class LongPollManager implements Runnable {
 
     private LongPoll longPoll;
     private String longPollKey;
     private String longPollServerURL;
     private Integer ts;
-    private boolean isInitialised = false;
     private GroupsGetLongPollServerQuery longPollServerQuery;
-    private VkBotEventHandler botEventsHandler;
+    private boolean isInitialised = false;
     private boolean mustInterrupt = false;
+    @Autowired
+    private VkBotEventHandler botEventsHandler;
+    @Autowired
+    private VkApiClientConnector clientConnector;
 
-    LongPollManager(LongPoll longPoll, GroupsGetLongPollServerQuery longPollServerQuery, VkApiAccessor vk) {
-        this.longPoll = longPoll;
-        this.longPollServerQuery = longPollServerQuery;
+    @PostConstruct
+    private void init() {
+        this.longPoll = clientConnector.getLongPoll();
+        this.longPollServerQuery = clientConnector.longPollServerQuery();
         try {
             LongPollServer longPollServer = loadLongPollServer();
             longPollKey = longPollServer.getKey();
@@ -31,7 +40,6 @@ class LongPollManager implements Runnable {
         } catch (ClientException | ApiException e) {
             e.printStackTrace();
         }
-        botEventsHandler = new VkBotEventHandler(vk);
     }
 
     @Override
@@ -55,11 +63,12 @@ class LongPollManager implements Runnable {
                 }
                 continue;
             } catch (ApiException | ClientException e2) {
-                e2.printStackTrace();
+//              e2.printStackTrace();
                 continue;
             }
             ts = getEventsResponse.getTs();
-            VkBotEventHandler.Response eventHandlerResponse = botEventsHandler.handleEvent(getEventsResponse.getUpdates());
+            HandlingResponse eventHandlerResponse
+                    = botEventsHandler.handleEvent(getEventsResponse.getUpdates());
             switch (eventHandlerResponse.getMessage()) {
                 case EVERYTHING_OK:
                     break;
