@@ -2,6 +2,7 @@ package ru.ogrezem.codeWarsSolution.domain.vkApi;
 
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,7 +22,7 @@ public class MessagesHandler {
     private VkApiAccessor vk;
     @Autowired
     CustomerRepository customerRepository;
-    private static Gson gson = new Gson();
+    private static Gson gson = new GsonBuilder().setPrettyPrinting().create();
     private boolean repeatingMode = false;
 
 

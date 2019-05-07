@@ -4,3 +4,5 @@ spring.data.mongodb.authentication-database=admin
 spring.data.mongodb.database=test-spring-ogr
 spring.data.mongodb.username=admin
 spring.data.mongodb.password=loli-diana
+
+server.port=8081
