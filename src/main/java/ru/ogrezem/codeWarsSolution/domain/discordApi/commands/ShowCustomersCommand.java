@@ -38,7 +38,7 @@ public class ShowCustomersCommand extends Command {
             }
             event.reply(responseStringBuilder.toString());
         } else {
-            event.reactError();
+            System.out.println("АРГУМЕНТЫ НЕ СОВПАЛИ");
         }
     }
 }
