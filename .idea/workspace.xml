@@ -27,10 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b17c36a-c60a-41c0-849b-3d937dee968d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DBAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowCustomersCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowCustomersCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/Customer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -133,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="32" column="104" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
+            <state relative-caret-position="630">
+              <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,11 +146,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DBAccessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            <state relative-caret-position="288">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/CustomerRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,30 +210,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/service/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotServicesConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -270,7 +269,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/CustomerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/service/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/HandlingResponseMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/HandlingResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler.java" />
@@ -293,8 +291,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotServicesConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DBAccessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowCustomersCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/Customer.java" />
       </list>
     </option>
   </component>
@@ -733,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557227375544</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="make opportunity for ru.ogrezem.codeWarsSolution.domain.discordApi.commands.ShowCustomersCommand to get access to database through DBAccessor">
+      <created>1557229604125</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557229604125</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -821,7 +827,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding vk connection" />
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="make opportunity for ru.ogrezem.codeWarsSolution.domain.discordApi.commands.ShowCustomersCommand to get access to database through DBAccessor" />
+    <option name="LAST_COMMIT_MESSAGE" value="make opportunity for ru.ogrezem.codeWarsSolution.domain.discordApi.commands.ShowCustomersCommand to get access to database through DBAccessor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,22 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hs_err_pid14148.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-702" />
@@ -1136,16 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/CustomerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/MessagesHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1244,21 +1225,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DBAccessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        <state relative-caret-position="630">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DBAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" column="104" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
+        <state relative-caret-position="180">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
