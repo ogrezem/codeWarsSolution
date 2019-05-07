@@ -105,6 +105,10 @@ public class MessagesHandler {
                                 .append(newCustomerLastName);
                         vk.sendMessage(peerId, commandResponseBuilder.toString());
                     } else if (messageText.equals("//@show all")) {
+                        if (customerRepository.count() == 0) {
+                            vk.sendMessage(peerId, "Список пуст");
+                            break;
+                        }
                         List<Customer> allCustomersList = customerRepository.findAll();
                         var commandResponseBuilder = new StringBuilder();
                         commandResponseBuilder.append("Список всех customer:\n");
