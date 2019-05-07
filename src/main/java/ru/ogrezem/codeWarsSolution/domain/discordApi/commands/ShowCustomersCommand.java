@@ -2,24 +2,21 @@ package ru.ogrezem.codeWarsSolution.domain.discordApi.commands;
 
 import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import ru.ogrezem.codeWarsSolution.domain.jts.Customer;
 import ru.ogrezem.codeWarsSolution.domain.jts.CustomerRepository;
 
 import java.util.List;
 
-@Service
 public class ShowCustomersCommand extends Command {
 
-    @Autowired
-    public CustomerRepository customerRepository;
+    private CustomerRepository customerRepository;
 
-    public ShowCustomersCommand() {
+    public ShowCustomersCommand(CustomerRepository customerRepository) {
         this.name = "show";
         this.help = "shows some customers";
         this.arguments = "<args>";
         this.guildOnly = false;
+        this.customerRepository = customerRepository;
     }
 
     @Override

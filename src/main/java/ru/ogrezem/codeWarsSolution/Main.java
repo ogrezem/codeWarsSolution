@@ -3,10 +3,8 @@ package ru.ogrezem.codeWarsSolution;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import ru.ogrezem.codeWarsSolution.domain.discordApi.DiscordBotManager;
 import ru.ogrezem.codeWarsSolution.domain.vkApi.VkBotManager;
-import ru.ogrezem.codeWarsSolution.domain.vkApi.VkBotServicesConfiguration;
 
 @SpringBootApplication
 public class Main {
