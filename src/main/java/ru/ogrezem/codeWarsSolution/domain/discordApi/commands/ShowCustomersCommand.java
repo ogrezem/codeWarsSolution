@@ -1,5 +1,7 @@
 package ru.ogrezem.codeWarsSolution.domain.discordApi.commands;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
 import ru.ogrezem.codeWarsSolution.domain.jts.Customer;
@@ -10,6 +12,7 @@ import java.util.List;
 public class ShowCustomersCommand extends Command {
 
     private CustomerRepository customerRepository;
+    private static Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public ShowCustomersCommand(CustomerRepository customerRepository) {
         this.name = "show";
@@ -30,7 +33,7 @@ public class ShowCustomersCommand extends Command {
             }
             List<Customer> customersList = customerRepository.findAll();
             for (Customer customer : customersList) {
-                responseStringBuilder.append(customer.toString())
+                responseStringBuilder.append(gson.toJson(customer))
                         .append("\n");
             }
             event.reply(responseStringBuilder.toString());
