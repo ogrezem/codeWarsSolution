@@ -1,15 +1,16 @@
 package ru.ogrezem.codeWarsSolution.domain.jts;
 
-import lombok.ToString;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@ToString
 @Document("customers")
 public class Customer {
 
     @Id
     private String id;
+    @DBRef
+    private Company company;
     private String firstName;
     private String lastName;
 
@@ -17,7 +18,8 @@ public class Customer {
 
     }
 
-    public Customer(String firstName, String lastName) {
+    public Customer(Company company, String firstName, String lastName) {
+        this.company = company;
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -32,5 +34,19 @@ public class Customer {
 
     public String getLastName() {
         return lastName;
+    }
+
+    public Company getCompany() {
+        return company;
+    }
+
+    @Override
+    public String toString() {
+        return '{' +
+                "\"id\": '" + id + '\'' +
+                ", company: " + company +
+                ", firstName: '" + firstName + '\'' +
+                ", lastName: '" + lastName + '\'' +
+                '}';
     }
 }

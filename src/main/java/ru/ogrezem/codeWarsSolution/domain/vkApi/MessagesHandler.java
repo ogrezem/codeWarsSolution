@@ -5,6 +5,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import ru.ogrezem.codeWarsSolution.domain.jts.Company;
 import ru.ogrezem.codeWarsSolution.domain.jts.Customer;
 import ru.ogrezem.codeWarsSolution.domain.jts.CustomerRepository;
 
@@ -90,19 +91,24 @@ public class MessagesHandler {
                     if (messageText.matches("^//@add\\s.+\\s.+$")) {
                         String[] commandArgs = messageText.split("//@\\w+\\s")[1]
                                 .split("\\s");
+                        if (commandArgs.length < 3) {
+                            vk.sendMessage(peerId, "Недостаточно данных для добавления");
+                            break;
+                        }
                         String newCustomerFirstName = commandArgs[0];
                         String newCustomerLastName = commandArgs[1];
-                        var newCustomer = new Customer(newCustomerFirstName, newCustomerLastName);
+                        String newCustomerCompanyName = commandArgs[3];
+                        var newCustomerCompany = new Company(newCustomerCompanyName);
+                        var newCustomer = new Customer(newCustomerCompany, newCustomerFirstName, newCustomerLastName);
                         customerRepository.insert(newCustomer);
                         Map<String, String> senderInfo = vk.getUserNameWithSexById(fromId);
                         var commandResponseBuilder = new StringBuilder();
                         commandResponseBuilder.append(senderInfo.get("firstName"))
                                 .append(", ты успешно добавил")
                                 .append(senderInfo.get("sex").equals("female") ? "a " : " ")
-                                .append("в базу данных человека с именем ")
-                                .append(newCustomerFirstName)
-                                .append(" и фамилией ")
-                                .append(newCustomerLastName);
+                                .append("в базу данных человека с именем ").append(newCustomerFirstName)
+                                .append(" и фамилией ").append(newCustomerLastName)
+                                .append(", работающего в компании ").append(newCustomerCompanyName);
                         vk.sendMessage(peerId, commandResponseBuilder.toString());
                     } else if (messageText.equals("//@show all")) {
                         if (customerRepository.count() == 0) {
