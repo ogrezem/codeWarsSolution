@@ -7,6 +7,7 @@ import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.entities.Game;
 import org.springframework.stereotype.Service;
 import ru.ogrezem.codeWarsSolution.domain.discordApi.commands.HiCommand;
+import ru.ogrezem.codeWarsSolution.domain.discordApi.commands.ShowAllCustomersCommand;
 import ru.ogrezem.codeWarsSolution.domain.discordApi.listeners.MainListener;
 
 import javax.security.auth.login.LoginException;
@@ -24,7 +25,7 @@ public class DiscordBotManager {
                     .setPrefix("//@")
                     .setOwnerId("ogrezem#2891")
                     .addCommands(
-                            new HiCommand()
+                            new HiCommand(), new ShowAllCustomersCommand()
                     ).setGame(Game.playing("Казаки: снова война"))
                     .build();
             jdaBuilder = new JDABuilder(AccountType.BOT)
