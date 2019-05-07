@@ -13,7 +13,7 @@ import java.util.List;
 public class ShowCustomersCommand extends Command {
 
     @Autowired
-    private CustomerRepository customerRepository;
+    public CustomerRepository customerRepository;
 
     public ShowCustomersCommand() {
         this.name = "show";
