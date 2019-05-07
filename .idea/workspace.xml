@@ -27,56 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b17c36a-c60a-41c0-849b-3d937dee968d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/discordApi/HandlingResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/discordApi/MessagesHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HiCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MainListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/jts/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/jts/CustomerRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/HandlingResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/HandlingResponseMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/MessagesHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotServicesConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/temp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/HandlingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/MessagesHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HiCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MainListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/LongPollManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/LongPollManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/LongPollManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/LongPollManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VKConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiAccessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiAccessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiClientConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiClientConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler$Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler$ResponseMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/service/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/service/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/codeWarsSolution-boot.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/codeWarsSolution-boot.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/codeWarsSolution-boot.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/codeWarsSolution-boot.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/codeWarsSolution.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/codeWarsSolution.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/codeWarsSolution.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/codeWarsSolution.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/codeWarsSolution-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/codeWarsSolution-0.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/codeWarsSolution" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/codeWarsSolution" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/codeWarsSolution.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/codeWarsSolution.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/MessagesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/MessagesHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/system.properties" beforeDir="false" afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -221,11 +173,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="52" lean-forward="true" selection-start-column="52" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -235,15 +196,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/4.ALPHA.0_82/81ccb941b831921d59f5f21cd967995916042d42/JDA-4.ALPHA.0_82-sources.jar!/net/dv8tion/jda/api/events/message/GenericMessageEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -274,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/SortTheOdd.java" />
         <option value="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/ogrTest/OgrTest.java" />
         <option value="$PROJECT_DIR$/src/test/ru/ogrezem/codeWarsSolution/OddSorterTest.java" />
         <option value="$PROJECT_DIR$/src/main/ru/ogrezem/codeWarsSolution/Main.java" />
@@ -325,6 +276,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HiCommand.java" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/main/resources/system.properties" />
       </list>
     </option>
   </component>
@@ -513,6 +465,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\common\JavaProjects\codeWarsSolution" />
       <recent name="C:\common\JavaProjects\codeWarsSolution\src\test\java" />
       <recent name="C:\common\JavaProjects\codeWarsSolution\src\main\java" />
       <recent name="C:\common\JavaProjects\codeWarsSolution\src\main" />
@@ -710,7 +663,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556993131450</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="123">
+      <created>1557220595513</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557220595513</updated>
+    </task>
+    <task id="LOCAL-00008" summary="123">
+      <created>1557220891096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557220891096</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -756,8 +723,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1416" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2721239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2721239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -772,7 +740,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49926254" visible="true" weight="0.81543624" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49926254" weight="0.81543624" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007375" side_tool="true" weight="0.3277405" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
@@ -815,13 +783,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/AreSame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/other/BirthDay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1225,6 +1186,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="52" lean-forward="true" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
