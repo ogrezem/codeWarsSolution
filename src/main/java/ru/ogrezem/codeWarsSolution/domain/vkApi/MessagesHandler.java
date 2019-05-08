@@ -103,9 +103,23 @@ public class MessagesHandler {
                         String newCustomerFirstName = commandArgs[0];
                         String newCustomerLastName = commandArgs[1];
                         String newCustomerCompanyName = commandArgs[2];
+                        // TODO: learn how to use Optional class to apply it in WordBuilders at the another project
+                        // as result of making the word
                         Optional<Company> companyFound = companyRepository.findByName(newCustomerCompanyName);
-                        Company newCustomerCompany = companyFound.orElseGet (
-                                () -> new Company(newCustomerCompanyName));
+                        Company newCustomerCompany;
+                        if (!companyFound.isPresent()) {
+                            newCustomerCompany = new Company(newCustomerCompanyName);
+                            companyRepository.insert(newCustomerCompany);
+                            Optional<Company> companyFoundSecond = companyRepository.findByName(newCustomerCompanyName);
+                            if (companyFoundSecond.isPresent())
+                                newCustomerCompany = companyFoundSecond.get();
+                            else {
+                                System.err.println("Unknown error during a creating of company");
+                                vk.sendMessage(peerId, "Неизвестная ошибка при добавлении компании");
+                                break;
+                            }
+                        } else
+                            newCustomerCompany = companyFound.get();
                         var newCustomer = new Customer(newCustomerFirstName, newCustomerLastName, newCustomerCompany);
                         customerRepository.insert(newCustomer);
                         Map<String, String> senderInfo = vk.getUserNameWithSexById(fromId);
