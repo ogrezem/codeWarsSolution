@@ -31,7 +31,7 @@ public class DiscordBotManager {
                     .setOwnerId("ogrezem#2891")
                     .addCommands(
                             new HiCommand(), new ShowCustomersCommand(dbAccessor.getCustomerRepository())
-                    ).setGame(Game.playing("Казаки: снова война"))
+                    ).setGame(Game.playing("Казаки: Снова Война"))
                     .build();
             jdaBuilder = new JDABuilder(AccountType.BOT)
                     .setToken(TOKEN)

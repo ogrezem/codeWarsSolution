@@ -7,11 +7,13 @@ import com.google.gson.JsonObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.ogrezem.codeWarsSolution.domain.jts.Company;
+import ru.ogrezem.codeWarsSolution.domain.jts.CompanyRepository;
 import ru.ogrezem.codeWarsSolution.domain.jts.Customer;
 import ru.ogrezem.codeWarsSolution.domain.jts.CustomerRepository;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 import static ru.ogrezem.codeWarsSolution.domain.vkApi.VkApiAccessor.OWNER_ID;
 
@@ -21,7 +23,9 @@ public class MessagesHandler {
     @Autowired
     private VkApiAccessor vk;
     @Autowired
-    CustomerRepository customerRepository;
+    private CustomerRepository customerRepository;
+    @Autowired
+    private CompanyRepository companyRepository;
     private static Gson gson = new GsonBuilder().setPrettyPrinting().create();
     private boolean repeatingMode = false;
 
@@ -99,7 +103,9 @@ public class MessagesHandler {
                         String newCustomerFirstName = commandArgs[0];
                         String newCustomerLastName = commandArgs[1];
                         String newCustomerCompanyName = commandArgs[3];
-                        var newCustomerCompany = new Company(newCustomerCompanyName);
+                        Optional<Company> companyFound = companyRepository.findByName(newCustomerCompanyName);
+                        Company newCustomerCompany = companyFound.orElseGet (
+                                () -> new Company(newCustomerCompanyName));
                         var newCustomer = new Customer(newCustomerFirstName, newCustomerLastName, newCustomerCompany);
                         customerRepository.insert(newCustomer);
                         Map<String, String> senderInfo = vk.getUserNameWithSexById(fromId);
