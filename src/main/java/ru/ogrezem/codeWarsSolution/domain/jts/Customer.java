@@ -9,16 +9,16 @@ public class Customer {
 
     @Id
     private String id;
-    @DBRef
-    private Company company;
     private String firstName;
     private String lastName;
+    @DBRef
+    private Company company;
 
     public Customer() {
 
     }
 
-    public Customer(Company company, String firstName, String lastName) {
+    public Customer(String firstName, String lastName, Company company) {
         this.company = company;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -44,9 +44,9 @@ public class Customer {
     public String toString() {
         return '{' +
                 "\"id\": '" + id + '\'' +
-                ", company: " + company +
                 ", firstName: '" + firstName + '\'' +
                 ", lastName: '" + lastName + '\'' +
+                ", company: " + company +
                 '}';
     }
 }

@@ -100,7 +100,7 @@ public class MessagesHandler {
                         String newCustomerLastName = commandArgs[1];
                         String newCustomerCompanyName = commandArgs[3];
                         var newCustomerCompany = new Company(newCustomerCompanyName);
-                        var newCustomer = new Customer(newCustomerCompany, newCustomerFirstName, newCustomerLastName);
+                        var newCustomer = new Customer(newCustomerFirstName, newCustomerLastName, newCustomerCompany);
                         customerRepository.insert(newCustomer);
                         Map<String, String> senderInfo = vk.getUserNameWithSexById(fromId);
                         var commandResponseBuilder = new StringBuilder();
