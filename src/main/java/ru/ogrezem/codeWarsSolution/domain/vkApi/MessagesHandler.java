@@ -102,7 +102,7 @@ public class MessagesHandler {
                         }
                         String newCustomerFirstName = commandArgs[0];
                         String newCustomerLastName = commandArgs[1];
-                        String newCustomerCompanyName = commandArgs[3];
+                        String newCustomerCompanyName = commandArgs[2];
                         Optional<Company> companyFound = companyRepository.findByName(newCustomerCompanyName);
                         Company newCustomerCompany = companyFound.orElseGet (
                                 () -> new Company(newCustomerCompanyName));
