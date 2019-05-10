@@ -15,11 +15,11 @@ public class MessageListener extends ListenerAdapter {
         MessageChannel channel = event.getChannel();
         switch (channel.getType()) {
             case TEXT:
-                channel.sendMessage(gson.toJson(event.getGuild()))
+                channel.sendMessage("Guild id: " + event.getGuild().getId())
                         .queue();
                 break;
             case PRIVATE:
-                channel.sendMessage(gson.toJson(event.getAuthor()))
+                channel.sendMessage("Author id: " + event.getAuthor().getId())
                         .queue();
                 break;
         }
