@@ -12,18 +12,6 @@ public class MessageListener extends ListenerAdapter {
 
     @Override
     public void onMessageReceived(MessageReceivedEvent event) {
-        MessageChannel channel;
-        switch (event.getChannelType()) {
-            case TEXT:
-                channel = event.getTextChannel();
-                channel.sendMessage("Guild id: " + event.getGuild().getId())
-                        .queue();
-                break;
-            case PRIVATE:
-                channel = event.getPrivateChannel();
-                channel.sendMessage("Author id: " + event.getAuthor().getId())
-                        .queue();
-                break;
-        }
+
     }
 }
