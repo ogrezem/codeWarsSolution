@@ -37,8 +37,7 @@ public class DiscordBotManager {
                     .setToken(TOKEN)
                     .addEventListener (
                             new MessageListener(), commandClient
-                    )
-                    .buildAsync();
+                    ).buildAsync();
             isInitialised = true;
         } catch (LoginException e) {
             System.err.println("DISCORD BOT LOGIN ERROR");
