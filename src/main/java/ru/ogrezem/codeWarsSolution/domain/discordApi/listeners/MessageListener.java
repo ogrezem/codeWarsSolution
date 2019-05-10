@@ -14,6 +14,9 @@ public class MessageListener extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent event) {
         if (event.getAuthor().isBot())
             return;
+        if (!event.getMessage().getContentRaw().startsWith("--c ")) {
+            return;
+        }
         MessageChannel channel;
         switch (event.getChannelType()) {
             case TEXT:
