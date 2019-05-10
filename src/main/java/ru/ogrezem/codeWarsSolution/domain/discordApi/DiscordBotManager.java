@@ -7,8 +7,7 @@ import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.entities.Game;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.ogrezem.codeWarsSolution.domain.discordApi.commands.HiCommand;
-import ru.ogrezem.codeWarsSolution.domain.discordApi.commands.ShowCustomersCommand;
+import ru.ogrezem.codeWarsSolution.domain.discordApi.commands.*;
 import ru.ogrezem.codeWarsSolution.domain.discordApi.listeners.MessageListener;
 
 import javax.annotation.PostConstruct;
@@ -30,7 +29,12 @@ public class DiscordBotManager {
                     .setPrefix("//@")
                     .setOwnerId("ogrezem#2891")
                     .addCommands(
-                            new HiCommand(), new ShowCustomersCommand(dbAccessor.getCustomerRepository())
+                            new HiCommand(),
+                            new ShowCustomersCommand(dbAccessor.getCustomerRepository()),
+                            new PlayCommand(),
+                            new ClearChatCommand(),
+                            new ShowGuildMembersListCommand(),
+                            new ShowGuildRolesCommand()
                     ).setGame(Game.playing("Казаки: Снова Война"))
                     .build();
             jdaBuilder = new JDABuilder(AccountType.BOT)

@@ -28,7 +28,7 @@ public class MessageListener extends ListenerAdapter {
                 channel.sendMessage("Guild id: " + event.getGuild().getId())
                         .queue (
                                 msg -> {
-                                    System.out.println("Sent message: " + "\"" + msg + "\"");
+                                    System.out.println("Sent message: " + "\"" + msg.getContentRaw() + "\"");
                                 }, e -> {
                                     System.err.println("ERROR in TEXT MESSAGE: " + e.getMessage());
                                 }
@@ -39,7 +39,7 @@ public class MessageListener extends ListenerAdapter {
                 channel.sendMessage("Author id: " + event.getAuthor().getId())
                         .queue (
                                 msg -> {
-                                    System.out.println("Sent message: " + "\"" + msg + "\"");
+                                    System.out.println("Sent message: " + "\"" + msg.getContentRaw() + "\"");
                                 }, e -> {
                                     System.err.println("ERROR in PRIVATE MESSAGE: " + e.getMessage());
                                 }
