@@ -8,6 +8,7 @@ import net.dv8tion.jda.core.entities.Game;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.ogrezem.codeWarsSolution.domain.discordApi.commands.*;
+import ru.ogrezem.codeWarsSolution.domain.discordApi.listeners.MafiaGameMessageListener;
 import ru.ogrezem.codeWarsSolution.domain.discordApi.listeners.MessageListener;
 
 import javax.annotation.PostConstruct;
@@ -27,7 +28,7 @@ public class DiscordBotManager {
         try {
             var commandClient = new CommandClientBuilder()
                     .setPrefix("//@")
-                    .setOwnerId("ogrezem#2891")
+                    .setOwnerId("277457628517629952")
                     .addCommands(
                             new HiCommand(),
                             new ShowCustomersCommand(dbAccessor.getCustomerRepository()),
@@ -37,10 +38,15 @@ public class DiscordBotManager {
                             new ShowGuildRolesCommand()
                     ).setGame(Game.playing("Казаки: Снова Война"))
                     .build();
+            commandClient.addCommand (
+                    new HelpCommand(commandClient.getCommands(), commandClient.getPrefix())
+            );
             jdaBuilder = new JDABuilder(AccountType.BOT)
                     .setToken(TOKEN)
                     .addEventListener (
-                            new MessageListener(), commandClient
+                            new MessageListener(),
+                            new MafiaGameMessageListener(),
+                            commandClient
                     ).buildAsync();
             isInitialised = true;
         } catch (LoginException e) {

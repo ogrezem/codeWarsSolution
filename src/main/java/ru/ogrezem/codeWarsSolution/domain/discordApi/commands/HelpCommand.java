@@ -2,18 +2,25 @@ package ru.ogrezem.codeWarsSolution.domain.discordApi.commands;
 
 import com.jagrosh.jdautilities.command.Command;
 import com.jagrosh.jdautilities.command.CommandEvent;
-import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.TextChannel;
 import net.dv8tion.jda.core.entities.User;
 
 import java.util.List;
 
-public class ShowGuildMembersListCommand extends Command {
+public class HelpCommand extends Command {
 
-    public ShowGuildMembersListCommand() {
-        this.name = "show-members";
-        this.help = "shows all members in the server";
-        this.guildOnly = true;
+    private String helpCommandResponse;
+
+    public HelpCommand(List<Command> commands, String prefix) {
+        var commandResponseBuilder = new StringBuilder();
+        for (Command command : commands) {
+            commandResponseBuilder.append(prefix)
+                    .append(command.getName()).append(" - ")
+                    .append(command.getHelp()).append("\n");
+        }
+        helpCommandResponse = commandResponseBuilder.toString();
+        name = "help";
+        guildOnly = true;
     }
 
     @Override
@@ -26,10 +33,6 @@ public class ShowGuildMembersListCommand extends Command {
             channel.sendMessage("Недостаточно прав").queue();
             return;
         }
-        List<Member> members = event.getGuild().getMembers();
-        for (Member member : members) {
-            User memberUser = member.getUser();
-            channel.sendMessage(memberUser.getName() + " (" + "id: " + memberUser.getId() + ")").queue();
-        }
+        channel.sendMessage(helpCommandResponse).queue();
     }
 }

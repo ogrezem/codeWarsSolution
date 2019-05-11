@@ -9,7 +9,7 @@ public class MafiaStateMachine implements StateMachine {
     private int state = 0;
 
     MafiaStateMachine(MessageChannel channel) {
-
+        channel.sendMessage("Начинается игра \"мафия\"").queue();
     }
 
     @Override

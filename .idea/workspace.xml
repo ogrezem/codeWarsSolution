@@ -27,30 +27,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b17c36a-c60a-41c0-849b-3d937dee968d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ClearChatCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/PlayCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildMembersListCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildRolesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HelpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/StartMafiaGameCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MafiaGameMessageListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MainListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/jts/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/jts/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/MessagesHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ru/ogrezem/codeWarsSolution/domain/vkApi/MessagesHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/codeWarsSolution-boot.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/codeWarsSolution-boot.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/codeWarsSolution-boot.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/codeWarsSolution-boot.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/codeWarsSolution-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/codeWarsSolution-0.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/jts/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/jts/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/jts/TestAnswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/HandlingResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/HandlingResponseMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/LongPollManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/LongPollManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/MessagesHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiClientConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotEventHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotServicesConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/other/AreSame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/other/BirthDay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/other/DayOfWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/other/OddSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/other/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/other/Sex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/other/TriangleTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/ogrezem/codeWarsSolution/service/controller/MainController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildMembersListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildMembersListCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/gamesManagement/mafia/MafiaStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/gamesManagement/mafia/MafiaStateMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MessageListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -121,22 +135,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MessageListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="30" column="100" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/PlayCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+            <state relative-caret-position="216">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+            <state relative-caret-position="360">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,8 +170,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HiCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="234">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HelpCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,7 +194,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ClearChatCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="360">
               <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -192,8 +206,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildMembersListCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,22 +216,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildRolesCommand.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jagrosh/jda-utilities-command/2.1.5/da4dd127d021dcd190f3784280d949a04156631/jda-utilities-command-2.1.5-sources.jar!/com/jagrosh/jdautilities/command/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            <state relative-caret-position="-6715">
+              <caret line="334" selection-start-line="334" selection-end-line="334" />
             </state>
           </provider>
         </entry>
@@ -225,8 +236,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowCustomersCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="689">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,9 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/TestAnswer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VKConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkApiClientConnector.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/jts/CustomerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/service/controller/MainController.java" />
@@ -276,7 +284,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/MainListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/HandlingResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/MessagesHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HiCommand.java" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/resources/system.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/temp" />
@@ -305,14 +312,18 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/games/mafia/MafiaGame.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/StateMachine.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MainListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/gamesManagement/mafia/MafiaStateMachine.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MessageListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/PlayCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ClearChatCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildMembersListCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildRolesCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HiCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MafiaGameMessageListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/gamesManagement/mafia/MafiaStateMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/StartMafiaGameCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildMembersListCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HelpCommand.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java" />
       </list>
     </option>
   </component>
@@ -337,6 +348,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -531,16 +543,11 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="codeWarsSolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -554,7 +561,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../prob" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -565,17 +572,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.ogrezem.codeWarsSolution" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.ogrezem.codeWarsSolution.domain.games.mafia" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\common\JavaProjects\codeWarsSolution" />
       <recent name="C:\common\JavaProjects\codeWarsSolution\src\test\java" />
       <recent name="C:\common\JavaProjects\codeWarsSolution\src\main\java" />
       <recent name="C:\common\JavaProjects\codeWarsSolution\src\main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.ogrezem.codeWarsSolution.domain.games.mafia" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -966,7 +973,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557502033404</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="testing discord api">
+      <created>1557513701974</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1557513701974</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1014,7 +1028,7 @@
     <frame x="-8" y="-8" width="1416" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23967552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24336283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1079,44 +1093,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/HandlingResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/service/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/HandlingResponseMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/2.1.6.RELEASE/4137528cba761e2c6c9cf931c02cfb6fb43f2762/spring-data-mongodb-2.1.6.RELEASE-sources.jar!/org/springframework/data/mongodb/core/mapping/event/AbstractMongoEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2346">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/2.1.6.RELEASE/4137528cba761e2c6c9cf931c02cfb6fb43f2762/spring-data-mongodb-2.1.6.RELEASE-sources.jar!/org/springframework/data/mongodb/core/mapping/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/vkApi/VkBotServicesConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1193,13 +1169,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/games/mafia/roles/MafiaGameRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/games/mafia/roles/MafiaGameRole.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/games/mafia/roles/RandomRolesProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1391,10 +1361,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/3.5.1_351/b86870a1da2ea65beadc82abd52c721c6839e192/JDA-3.5.1_351-sources.jar!/net/dv8tion/jda/core/entities/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildRolesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/service/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+        <state relative-caret-position="252">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="100" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/StartMafiaGameCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DBAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1404,24 +1431,19 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/gamesManagement/mafia/MafiaStateMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MafiaGameMessageListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DBAccessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1435,30 +1457,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowCustomersCommand.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jagrosh/jda-utilities-command/2.1.5/da4dd127d021dcd190f3784280d949a04156631/jda-utilities-command-2.1.5-sources.jar!/com/jagrosh/jdautilities/command/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-6715">
+          <caret line="334" selection-start-line="334" selection-end-line="334" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HiCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ClearChatCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="234">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1467,65 +1476,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/PlayCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        <state relative-caret-position="216">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowCustomersCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildMembersListCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/3.5.1_351/b86870a1da2ea65beadc82abd52c721c6839e192/JDA-3.5.1_351-sources.jar!/net/dv8tion/jda/core/entities/Role.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/3.5.1_351/b86870a1da2ea65beadc82abd52c721c6839e192/JDA-3.5.1_351-sources.jar!/net/dv8tion/jda/core/hooks/InterfacedEventManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/listeners/MessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="30" column="100" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/DiscordBotManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        <state relative-caret-position="360">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ShowGuildRolesCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/ClearChatCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="360">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jagrosh/jda-utilities-command/2.1.5/da4dd127d021dcd190f3784280d949a04156631/jda-utilities-command-2.1.5-sources.jar!/com/jagrosh/jdautilities/command/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/ogrezem/codeWarsSolution/domain/discordApi/commands/HelpCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        <state relative-caret-position="558">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
